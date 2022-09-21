@@ -38,4 +38,15 @@
     - 명령 모드로 바꾸려면 키보드에서 `esc`키를 누름
     - 명령 모드에서 `:w`를 입력하고 `enter`키를 누르 저장만 됨(write)
     - `:wq`를 입력하면 저장하고 에디터에서 빠져나올 수 있음(write and quit)
-    - `:q`를 입력하면 그냥 에디터에서 빠져나올 수 있다(quit)  
+    - `:q`를 입력하면 그냥 에디터에서 빠져나올 수 있다(quit)
+
+### commit
+#### 정의
+    - The "commit" command is used to save your changes to the local repository.
+    - 커밋 하나는 독립적인 버전을 나타낸다
+    - The git commit command captures a snapshot of the project's currently staged changes.
+    - 스냅샷(사진)과 유사
+
+#### 언제 커밋을 만드는가
+    - logical한 변경이 있을 때 커밋을 하나 만든다
+    - 가능하면 커밋 단위는 작을 수록 좋다
